@@ -144,11 +144,10 @@ end
 
 <article>
 
-<h1><a name="short">Keep your description short</a></h1>
+<h1><a name="short">缩短你的描述</a></h1>
 
 <p>
-A spec description should never be longer than 40 characters. If this happens
-you should split it using a context.
+一个spec描述应当永远少于40个字符，否则你应该用context把它分割开。
 </p>
 
 <p class="wrong">bad</p>
@@ -168,12 +167,11 @@ end
 </div>
 
 <p>
-In the example we removed the description related to the status code,
-which has been replaced by the expectation <code>it { should respond_with 422 }</code>.
-If you run this test typing <code>rspec filename</code> you will obtain a readable output.
+  在这个例子中我们删除了和状态码有关的描述，而使用 <code>it { should respond_with 422 }</code>
+  来替换它。如果你输入 <code>rspec filename</code> 运行这个测试，你将得到一个可读性强的输出。
 </p>
 
-<p class="base">Formatted Output</p>
+<p class="base">格式化的输出</p>
 
 <div>
 <pre><code>when not valid
@@ -182,7 +180,7 @@ If you run this test typing <code>rspec filename</code> you will obtain a readab
 </div>
 
 <p>
-<a href="https://github.com/andreareginato/betterspecs/issues/4">Discuss about this guideline &rarr;</a>
+<a href="https://github.com/andreareginato/betterspecs/issues/4">讨论这则指南 &rarr;</a>
 </p>
 
 <a href="https://twitter.com/share" data-text="betterspecs.org | keep your description short" href="https://twitter.com/share" data-url="http://betterspecs.org/#short" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="medium" data-counturl="http://betterspecs.org" data-count="vertical">Tweet</a>
